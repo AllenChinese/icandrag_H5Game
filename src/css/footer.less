@@ -1,0 +1,56 @@
+@import './common.less';
+.footer-wrapper {
+  position: fixed;
+  bottom: 0;
+  background: linear-gradient(180deg, rgba(227, 79, 86, 1) 0%, rgba(195, 39, 43, 1) 100%);
+  height: 135px;
+}
+
+.footer {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  &-brand {
+    display: flex;
+    color: #fff;
+    align-items: center;
+    &-logo {
+      width: 210px;
+      height: 47px;
+      margin-bottom: 10px;
+    }
+    &-slogan {
+      font-size: 24px;
+      display: flex;
+      &:before {
+        content: '';
+        display: block;
+        margin: 0 40px;
+        height: 36px;
+        width: 2px;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .footer-wrapper {
+    height: 50px;
+  }
+  .footer {
+    width: 100%;
+    padding: 0 15px;
+    &-brand {
+      &-logo {
+        width: 105px;
+        height: 24px;
+        background-size: 100%;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,5 @@
+{
+  "ignores" : [],
+  "keeps": ["dist"],
+  "buildFolder": "dist"
+}
