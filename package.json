@@ -12,7 +12,7 @@
     "fix": "eslint --fix .js, src"
   },
   "dependencies": {
-    "jquery": "^1.12"
+    "jquery": "^3.0.0"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",

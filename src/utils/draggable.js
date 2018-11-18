@@ -95,8 +95,7 @@ $.fn.extend({
   draggable: function draggable ({
     targetElement,
     previewWay,
-    cssOption,
-    hiddenAllDragImg
+    cssOption
   }) {
     for (let i = 0; i < $(this).length; i++) {
       const _this = $(this)[i]
@@ -111,7 +110,6 @@ $.fn.extend({
       // touchstart
       touchableEle.on('touchstart', function (e) {
         // 清除文案
-        hiddenAllDragImg()
         var ev = e.originalEvent || window.event.originalEvent
         var touch = ev.targetTouches[0]
         // 原始位置
