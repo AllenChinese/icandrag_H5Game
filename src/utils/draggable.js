@@ -59,6 +59,7 @@ function resetPosition (ele, oT, oL) {
  * @param {String} status - touchmove or touchend
  */
 function isInTargetContainer (touchableEle, targetEle, status, previewWay, cssOption) {
+  console.log(touchableEle)
   let hasActive = false
   for (let i = 0; i < targetEle.length; i++) {
     let ele = targetEle[i]
@@ -85,6 +86,7 @@ function isInTargetContainer (touchableEle, targetEle, status, previewWay, cssOp
       if (!$(ele).html()) {
         resetEachTargetHtml(ele)
       }
+      console.log('=====')
       customizeCss(targetEle, ele, '')
       hasActive = false
     }
