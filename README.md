@@ -5,7 +5,7 @@
     《拖拽 h5 小游戏》
 
 
-## 主要功能点
+## 功能
 
 > 主要用到 h5 手势中的 touchstart、touchmove、touchend 事件，配合元素的位置关系。将 draggable 扩展到 jQuery 方法中。使用 dragEle.draggable() 实现元素的拖拽。
 
