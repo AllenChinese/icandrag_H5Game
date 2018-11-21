@@ -3,6 +3,8 @@
 > pure scaffold for developing web page
 ## icandrag_H5Game
     《拖拽 h5 小游戏》
+    
+    闯关的形式，依次将图片进行合理的排序，正确则进入下一关，通过有惊喜。
 
 
 ## 功能
